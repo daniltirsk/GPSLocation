@@ -32,7 +32,7 @@
         android:textSize="30sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="111"
+        android:text="None"
         android:padding="5sp"
         android:layout_alignParentTop="true"
         android:layout_toRightOf="@id/lat_cap"
@@ -42,7 +42,7 @@
         android:textSize="30sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="222"
+        android:text="None"
         android:padding="5sp"
         android:layout_below="@+id/lat"
         android:layout_toRightOf="@id/lng_cap"
@@ -53,5 +53,13 @@
         android:layout_below="@id/lng_cap"
         android:id="@+id/updButton"
         android:text="Update coordinates" />
+
+    <ListView
+        android:layout_marginTop="60dp"
+        android:layout_below="@id/lng_cap"
+        android:id="@+id/providers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
 
 </RelativeLayout>
